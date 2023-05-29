@@ -28,5 +28,5 @@ module "securestorage" {
   version              = "1.0.0"
   location             = azurerm_resource_group.rg1.location
   resource_group_name  = azurerm_resource_group.rg1.name
-  storage_account_name = "storagepam"
+  storage_account_name = "storagepam2"
 }
