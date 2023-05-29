@@ -7,6 +7,12 @@ terraform {
       version = ">= 3.43.0"
     }
   }
+    cloud {
+    organization = "ParminderSaini"
+
+    workspaces {
+      name = "Hands-On_With_Terraform_On_Azure2"
+    }
 }
 provider "azurerm" {
   features {}
